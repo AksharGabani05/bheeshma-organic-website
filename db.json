@@ -1,35 +1,23 @@
 {
   "user": [
     {
-      "name": "parmar karan mukeshbhai",
-      "email": "mr.parmarkaran411@gmail.com",
-      "password": "karan",
+      "name": "gabani akshar govindbhai",
+      "email": "akshargabani@gmail.com",
+      "password": "aksharG991360",
       "id": 1
     },
     {
-      "name": "KARAN MUKESH PARMAR",
-      "email": "mr.parmarkaran141@gmail.com",
-      "password": "karam",
+      "name": "PATEL AKSHAR GOVINDBHAI",
+      "email": "aksharpatel@gmail.com",
+      "password": "aksharP991360",
       "id": 2
-    },
-    {
-      "name": "parmar karan mukeshbhai",
-      "email": "mr.parmarkaran411@gmail.com",
-      "password": "nhbhb",
-      "id": 3
-    },
-    {
-      "name": "akshar gabni",
-      "email": "akshar@gamil.com",
-      "password": "1234566+545",
-      "id": 4
     }
   ],
   "prodcut": [
     {
-      "title": "parmar karan mukeshbhai",
-      "selling-price": "mr.parmarkaran411@gmail.com",
-      "orginal-price": "mr.parmarkaran411@gmail.com",
+      "title": "gabani akshar govindbhai",
+      "selling-price": "akshargabani@gmail.com",
+      "orginal-price": "akshargabani@gmail.com",
       "img-1": "img/p-12.jpg",
       "img-2": "img/p-12(1).jpg",
       "img-3": "img/p-12(2).jpg",
@@ -37,9 +25,9 @@
       "id": 1
     },
     {
-      "title": "parmar karan mukeshbhai",
-      "selling-price": "mr.parmarkaran411@gmail.com",
-      "orginal-price": "mr.parmarkaran411@gmail.com",
+      "title": "PATEL AKSHAR GOVINDBHAI",
+      "selling-price": "aksharpatel@gmail.com",
+      "orginal-price": "aksharpatel@gmail.com",
       "img-1": "img/p-12.jpg",
       "img-2": "img/p-12(1).jpg",
       "img-3": "img/p-12(2).jpg",
@@ -47,16 +35,16 @@
       "id": 1
     },
     {
-      "name": "KARAN MUKESH PARMAR",
-      "email": "mr.parmarkaran141@gmail.com",
-      "password": "karam",
+      "name": "gabani akshar govindbhai",
+      "email": "akshargabani@gmail.com",
+      "password": "aksharG991360",
+      "id": 1
+    },
+    {
+      "name": "PATEL AKSHAR GOVINDBHAI",
+      "email": "aksharpatel@gmail.com",
+      "password": "aksharP991360",
       "id": 2
-    },
-    {
-      "name": "parmar karan mukeshbhai",
-      "email": "mr.parmarkaran411@gmail.com",
-      "password": "nhbhb",
-      "id": 3
     }
   ]
 }
