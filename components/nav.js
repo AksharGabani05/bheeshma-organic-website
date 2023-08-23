@@ -33,8 +33,10 @@ const navbar=()=>{
         <div class="row  justify-content-center mx-auto">
             <button class="btn btn-success btn-56 rounded-0 py-3 px-3" data-bs-toggle="collapse"
                 data-bs-target="#search"><i class="bi bi-search  fw-bold"></i></button>
-            <button class="btn btn-success btn-56 rounded-0 py-2 px-2" id="liveAlertBtn"><i
-                    class="bi bi-person p-1 fs-4 fw-bold"></i></button>
+            <button class="btn btn-success btn-56 rounded-0 py-2 px-2" id="liveAlertBtn">
+            <a href="../sign_up.html"><i
+            class="bi bi-person p-1 fs-4 fw-bold"></i></a>
+            </button>
             <button class="btn btn-success btn-56 rounded-0 py-2 px-2 position-relative" data-bs-toggle="offcanvas"
                 data-bs-target="#launch-offcanvas"><i class="bi bi-cart fs-4 fw-bold"></i><span
                     class="position-absolute top-0 start-100 translate-middle badge fs-6 rounded-pill bg-primary">2</span></button>
