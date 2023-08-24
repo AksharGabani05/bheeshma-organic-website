@@ -11,6 +11,12 @@ const navbar=()=>{
                 <li class="nav-item fw-semibold pe-2 h6"><a href="index.html"
                         class="nav-link text-primary text-uppercase">home+</a>
                 </li>
+                <li class="nav-item fw-semibold pe-2 h6"><a href="ui.html"
+                        class="nav-link text-white text-uppercase">UI+</a>
+                </li>
+                <li class="nav-item fw-semibold pe-2 h6"><a href="cart.html"
+                        class="nav-link text-white text-uppercase">CART+</a>
+                </li>
                 <li class="nav-item fw-semibold pe-2 h6"><a href="about.html"
                         class="nav-link text-white text-uppercase">about+</a>
                 </li>

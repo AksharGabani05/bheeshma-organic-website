@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+
+}
+#nav header{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.463);
+    width: 100%;
+    /* position: fixed; */
+}
+#nav .logo h1{
+    font-family: 'Courgette', cursive;
+    font-family: 'Rubik Puddles', cursive;
+    color: white;
+    padding: 10px;
+    letter-spacing: 8px;
+
+}
+.logo{
+    width: 60%;
+    padding-left: 50px;
+}
+nav {
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#cartpage div{
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    padding: 20px;
+}
+
+#cartpage{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: block;
+    /* position: relative; */
+    width: 70%;
+    /* margin-left: 350px; */
+}
+
+.maindiv{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    position: relative;
+}
+#other{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgba(128, 128, 128, 0.763);
+    width: 40%;
+}
+.maindiv2{
+    margin: 30px;
+}
+
+/* #cartpage p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    cursor: pointer;
+} */
+
+#cartpage h3{
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#cartpage button{
+    padding: 5px 10px;
+}
+#cartpage span{
+    padding: 5px 10px;
+    border: 1px solid black;
+    /* margin: 10px; */
+}
+/* .{
+    display: block;
+    font-size: 20px;
+} */
+#price{
+    margin: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.apply{
+    margin: 10px;
+    padding: 5px 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.promocode{
+    padding: 5px 30px;
+    /* font-size: 20px; */
+
+}
+label {
+    padding-right: 10px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.price1{
+    font-size: 20px;
+    position: absolute;
+    right : -30px;
+}
+.code{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.texts{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.plusminse{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+
+section{
+    display: flex;
+}
+
+.disprice{
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}

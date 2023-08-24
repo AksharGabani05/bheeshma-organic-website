@@ -20,6 +20,8 @@ const display = (data) => {
       } else {
         rating.style.color = "red";
       }
+
+      
       let btn = document.createElement("button");
       btn.innerHTML ="Buy Now"
       let div = document.createElement("div");
